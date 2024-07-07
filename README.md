@@ -7,6 +7,7 @@ I am trying to implement or rather recreate various data structues in Java prima
 
 ### Singly Linked List
 In a strongly typed language like Java, linked lists help in storing different data types...<br>
+As the name says, linkedlists have a series of elements, pointing to the next one...<br>
 We can use also it to store a single data type as well
 ```java
 SinglyLinkedList<Object> list1 = new SinglyLinkedList<>();
