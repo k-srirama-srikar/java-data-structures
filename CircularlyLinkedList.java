@@ -1,5 +1,3 @@
-// import org.w3c.dom.Node;
-
 public class CircularlyLinkedList<E> {
     //---------------- nested Node class ----------------
     private static class Node<E> { 
