@@ -26,3 +26,5 @@ Another fact to be noted is that the elsments stored are not of primitive data t
 Below is the structure of a circularly linked list<br>
 `val1(head)[data]--[next]-->val2-->....-->val{n}(tail)-->val1(head)`<br>
 Traversing a circularly linked list gives an infinite loop...<br>
+Note that the `val1(head)` above refers to the start of the circularly linked list rather than the element at head...<br>
+Also, we can reduce a little storage by `head=tail.next`<br>
