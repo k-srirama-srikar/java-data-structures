@@ -65,9 +65,13 @@ public class CircularlyLinkedList<E> {
         linkedlist1.addFirst("dwfsfg");
         System.out.println(linkedlist1.first());
         System.out.println(linkedlist1);
+        int cnt=0;
         for (Node curr = linkedlist1.tail; curr!=null;curr = curr.getNext()){
+            /*This is an infinite loop, so, I had to initialise a counter to stop it at 100th iteration*/
             System.out.println(curr);
             System.out.println(curr.getElement());
+            cnt++;
+            if (cnt==100) break;
         }
         System.out.println(linkedlist1.first());
         
