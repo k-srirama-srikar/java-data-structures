@@ -6,7 +6,11 @@ I am trying to implement or rather recreate various data structues in Java prima
 <br>I'm planning to implement various other data structures later on...<br>
 
 ### Singly Linked List
-In a strongly typed language like Java, linked lists help in storing different data types...<br>
+Below is the structure of a linked list<br>
+`val1(head)[data]--[next]-->val2-->....-->val{n}(tail)-->null`<br>
+Here the head is an object of the `Node` class<br>
+`head.next` returns a Node object, which is like a linked list with out he head...<br>
+In a statically typed language like Java, using generic framework to create linked lists help in storing different data types...<br>
 As the name says, linkedlists have a series of elements, pointing to the next one...<br>
 We can use also it to store a single data type as well
 ```java
@@ -17,3 +21,8 @@ whereas linked list list2 can only store Integer data type
 */
 ```
 Another fact to be noted is that the elsments stored are not of primitive data types but rather the wrapper classes of the primitive data types, this in a way provides greater flexibility...
+
+### Circularly Linked List
+Below is the structure of a circularly linked list<br>
+`val1(head)[data]--[next]-->val2-->....-->val{n}(tail)-->val1(head)`<br>
+Traversing a circularly linked list gives an infinite loop...<br>
